@@ -24,7 +24,7 @@ Back-end-Radarfit
 
 ## Technologies
 
-I used `typescript`, `typeorm`, `postgresSQL`, `Nodejs`...
+I used `typescript`, `typeorm`, `postgresSQL` and `Nodejs`
 
 ## Setup
 
