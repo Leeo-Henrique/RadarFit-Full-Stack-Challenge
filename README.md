@@ -42,7 +42,7 @@ I used `typescript`, `typeorm`, `postgresSQL`, `Nodejs`...
 
 ## Status
 
-[name of project] is finished.
+[Back-end-Radarfit] is finished.
 
 ## Credits
 
