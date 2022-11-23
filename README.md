@@ -7,15 +7,16 @@ Back-end-Radarfit
 ## Table of Content:
 
 - [Project Title](#project-title)
-  - [Demo link:](#demo-link)
-  - [Table of Content:](#table-of-content)
-  - [About The App](#about-the-app)
-  - [Technologies](#technologies)
-  - [Setup](#setup)
-  - [Status](#status)
-  - [Credits](#credits)
-  - [License](#license)
-  - [Routes](#routes)
+	- [Demo link:](#demo-link)
+	- [Table of Content:](#table-of-content)
+	- [About The App](#about-the-app)
+	- [Technologies](#technologies)
+	- [Setup](#setup)
+	- [Tests](#tests)
+	- [Status](#status)
+	- [Credits](#credits)
+	- [License](#license)
+	- [Routes](#routes)
 
 ## About The App
 
@@ -33,6 +34,10 @@ I used `typescript`, `typeorm`, `postgresSQL`, `Nodejs`...
 - run `yarn typeorm migration:run -d src/data-source.ts`
 - run `yarn dev`
 - the server is running :)
+  
+## Tests
+- run `npm install` or `yarn install`
+- run `yarn test`
 
 ## Status
 
