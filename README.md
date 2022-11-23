@@ -20,7 +20,7 @@ Back-end-Radarfit
 
 ## About The App
 
-[Name of project] is an app that ...
+[Back-end-Radarfit] is an app that list, delete, create, update and filter products
 
 ## Technologies
 
