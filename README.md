@@ -24,12 +24,13 @@ Back-end-Radarfit
 
 ## Technologies
 
-I used `typescript`, `typeorm`, `postgresSQL`, `Nodejs`...
+I used `typescript`, `typeorm`, `postgresSQL` and `Nodejs`
 
 ## Setup
 
 - download or clone the repository
 - run `npm install` or `yarn install`
+- create a copy of .env.example rename to .env and put your configs of postgres
 - create an database on postgress with same name of the .env POSTGRES_DATABASE
 - run `yarn typeorm migration:run -d src/data-source.ts`
 - run `yarn dev`
@@ -42,7 +43,7 @@ I used `typescript`, `typeorm`, `postgresSQL`, `Nodejs`...
 
 ## Status
 
-[name of project] is finished.
+[Back-end-Radarfit] is finished.
 
 ## Credits
 
