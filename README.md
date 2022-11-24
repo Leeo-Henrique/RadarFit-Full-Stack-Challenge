@@ -1,13 +1,20 @@
 # Project Title
-
 Back-end-Radarfit
 
+# Warn
+repo back-end working in localhost and front-end depends of the server run in localhost
+
 ## Demo link: [Radar-fit](https://radar-fit-front-end.vercel.app/)
+
+## Repo Front-End
+[repo](https://github.com/Leeo-Henrique/Radar-Fit-front-end)
 
 ## Table of Content:
 
 - [Project Title](#project-title)
+- [Warn](#warn)
 	- [Demo link: Radar-fit](#demo-link-radar-fit)
+	- [Repo Front-End](#repo-front-end)
 	- [Table of Content:](#table-of-content)
 	- [About The App](#about-the-app)
 	- [Technologies](#technologies)
@@ -24,7 +31,9 @@ Back-end-Radarfit
 
 ## Technologies
 
-I used `typescript`, `typeorm`, `postgresSQL` and `Nodejs`
+I used `typescript`, `typeorm`, `postgresSQL` and `Nodejs` in back-end
+i used `reactJS`, `styled-components`, `material-ui`, `react-toastify`, `axios`
+`react-modals` and `react-icons` in front-end
 
 ## Setup
 
@@ -36,14 +45,15 @@ I used `typescript`, `typeorm`, `postgresSQL` and `Nodejs`
 - run `yarn dev`
 - the server is running :)
 - now open the site
-  
+
 ## Tests
+
 - run `npm install` or `yarn install`
 - run `yarn test`
 
 ## Status
 
-[Back-end-Radarfit] is finished.
+[Back-end-Radarfit] is still in progress. `Version 2` will be out soon.
 
 ## Credits
 
