@@ -15,6 +15,17 @@ export const putAnProductService = async ({ ...product }: IproductPatched) => {
     }
     return productsRepository.create({ ...product });
   }
+  if (product.valor! < 0) {
+    const message = "Valor não pode ser menor que 0";
+    const statusCode = 400;
+    throw new AppError(statusCode, message);
+  }
+
+  if (product.produto!.length === 0) {
+    const message = "O produto precisa de um nome";
+    const statusCode = 400;
+    throw new AppError(statusCode, message);
+  }
   return productsRepository.save({
     descricao: product.descricao ? product.descricao : findProduct!.descricao,
     produto: product.produto ? product.produto : findProduct!.produto,
