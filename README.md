@@ -2,12 +2,12 @@
 
 Back-end-Radarfit
 
-## Demo link:
+## Demo link: [Radar-fit](https://radar-fit-front-end.vercel.app/)
 
 ## Table of Content:
 
 - [Project Title](#project-title)
-	- [Demo link:](#demo-link)
+	- [Demo link: Radar-fit](#demo-link-radar-fit)
 	- [Table of Content:](#table-of-content)
 	- [About The App](#about-the-app)
 	- [Technologies](#technologies)
@@ -34,6 +34,7 @@ I used `typescript`, `typeorm`, `postgresSQL`, `Nodejs`...
 - run `yarn typeorm migration:run -d src/data-source.ts`
 - run `yarn dev`
 - the server is running :)
+- now open the site
   
 ## Tests
 - run `npm install` or `yarn install`
